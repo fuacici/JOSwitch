@@ -18,7 +18,6 @@
 @implementation JOSwitch
 - (void)initialize
 {
-    CGSize t  = CGSizeMake(  78, 27);
     self.offImage = [UIImage imageNamed:@"switch_off"];
     self.onImage = [UIImage imageNamed:@"switch_on"];
     self.thumbImage = [UIImage imageNamed:@"switch_thumb"];
@@ -90,16 +89,10 @@
     {
         t.x = -t.x;
     }
-    if (!animated)
-    {
-        contentLayer.speed=0;
-    }
-
+    
+    [CATransaction setDisableActions: !animated];
     contentLayer.position = t;
-    if (!animated)
-    {
-        contentLayer.speed =1;
-    }
+    [CATransaction setDisableActions: YES];
     _on = on;
 }
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
