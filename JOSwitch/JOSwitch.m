@@ -63,7 +63,11 @@
     return self;
 }
 
-
+- (void)awakeFromNib
+{
+    [super awakeFromNib];
+    self.on = NO;
+}
 
 - (void)layoutSubviews
 {

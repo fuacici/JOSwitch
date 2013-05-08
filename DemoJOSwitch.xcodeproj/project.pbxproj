@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8E3F26C173A4813005F8746 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E3F26B173A4813005F8746 /* UIKit.framework */; };
+		C8E3F26E173A4813005F8746 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E3F26D173A4813005F8746 /* Foundation.framework */; };
+		C8E3F270173A4813005F8746 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E3F26F173A4813005F8746 /* CoreGraphics.framework */; };
+		C8E3F276173A4813005F8746 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8E3F274173A4813005F8746 /* InfoPlist.strings */; };
+		C8E3F278173A4813005F8746 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E3F277173A4813005F8746 /* main.m */; };
+		C8E3F27C173A4813005F8746 /* JOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E3F27B173A4813005F8746 /* JOAppDelegate.m */; };
+		C8E3F27E173A4813005F8746 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C8E3F27D173A4813005F8746 /* Default.png */; };
+		C8E3F280173A4813005F8746 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8E3F27F173A4813005F8746 /* Default@2x.png */; };
+		C8E3F282173A4813005F8746 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8E3F281173A4813005F8746 /* Default-568h@2x.png */; };
+		C8E3F285173A4813005F8746 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E3F283173A4813005F8746 /* MainStoryboard.storyboard */; };
+		C8E3F288173A4813005F8746 /* JOFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E3F287173A4813005F8746 /* JOFirstViewController.m */; };
+		C8E3F28A173A4813005F8746 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = C8E3F289173A4813005F8746 /* first.png */; };
+		C8E3F28C173A4813005F8746 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8E3F28B173A4813005F8746 /* first@2x.png */; };
+		C8E3F28F173A4813005F8746 /* JOSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E3F28E173A4813005F8746 /* JOSecondViewController.m */; };
+		C8E3F291173A4813005F8746 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = C8E3F290173A4813005F8746 /* second.png */; };
+		C8E3F293173A4813005F8746 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8E3F292173A4813005F8746 /* second@2x.png */; };
+		C8E3F2A0173A4868005F8746 /* JOSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E3F29B173A4868005F8746 /* JOSwitch.m */; };
+		C8E3F2A1173A4868005F8746 /* switch_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8E3F29D173A4868005F8746 /* switch_off@2x.png */; };
+		C8E3F2A2173A4868005F8746 /* switch_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8E3F29E173A4868005F8746 /* switch_on@2x.png */; };
+		C8E3F2A3173A4868005F8746 /* switch_thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8E3F29F173A4868005F8746 /* switch_thumb@2x.png */; };
+		C8E3F2A5173A4881005F8746 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E3F2A4173A4881005F8746 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C8E3F268173A4813005F8746 /* DemoJOSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoJOSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E3F26B173A4813005F8746 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C8E3F26D173A4813005F8746 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C8E3F26F173A4813005F8746 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C8E3F273173A4813005F8746 /* DemoJOSwitch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoJOSwitch-Info.plist"; sourceTree = "<group>"; };
+		C8E3F275173A4813005F8746 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8E3F277173A4813005F8746 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8E3F279173A4813005F8746 /* DemoJOSwitch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoJOSwitch-Prefix.pch"; sourceTree = "<group>"; };
+		C8E3F27A173A4813005F8746 /* JOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JOAppDelegate.h; sourceTree = "<group>"; };
+		C8E3F27B173A4813005F8746 /* JOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JOAppDelegate.m; sourceTree = "<group>"; };
+		C8E3F27D173A4813005F8746 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C8E3F27F173A4813005F8746 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C8E3F281173A4813005F8746 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C8E3F284173A4813005F8746 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C8E3F286173A4813005F8746 /* JOFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JOFirstViewController.h; sourceTree = "<group>"; };
+		C8E3F287173A4813005F8746 /* JOFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JOFirstViewController.m; sourceTree = "<group>"; };
+		C8E3F289173A4813005F8746 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		C8E3F28B173A4813005F8746 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		C8E3F28D173A4813005F8746 /* JOSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JOSecondViewController.h; sourceTree = "<group>"; };
+		C8E3F28E173A4813005F8746 /* JOSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JOSecondViewController.m; sourceTree = "<group>"; };
+		C8E3F290173A4813005F8746 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		C8E3F292173A4813005F8746 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		C8E3F29A173A4868005F8746 /* JOSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOSwitch.h; sourceTree = "<group>"; };
+		C8E3F29B173A4868005F8746 /* JOSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOSwitch.m; sourceTree = "<group>"; };
+		C8E3F29D173A4868005F8746 /* switch_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_off@2x.png"; sourceTree = "<group>"; };
+		C8E3F29E173A4868005F8746 /* switch_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_on@2x.png"; sourceTree = "<group>"; };
+		C8E3F29F173A4868005F8746 /* switch_thumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_thumb@2x.png"; sourceTree = "<group>"; };
+		C8E3F2A4173A4881005F8746 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8E3F265173A4813005F8746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E3F2A5173A4881005F8746 /* QuartzCore.framework in Frameworks */,
+				C8E3F26C173A4813005F8746 /* UIKit.framework in Frameworks */,
+				C8E3F26E173A4813005F8746 /* Foundation.framework in Frameworks */,
+				C8E3F270173A4813005F8746 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8E3F25F173A4813005F8746 = {
+			isa = PBXGroup;
+			children = (
+				C8E3F2A4173A4881005F8746 /* QuartzCore.framework */,
+				C8E3F271173A4813005F8746 /* DemoJOSwitch */,
+				C8E3F26A173A4813005F8746 /* Frameworks */,
+				C8E3F269173A4813005F8746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8E3F269173A4813005F8746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8E3F268173A4813005F8746 /* DemoJOSwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8E3F26A173A4813005F8746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8E3F26B173A4813005F8746 /* UIKit.framework */,
+				C8E3F26D173A4813005F8746 /* Foundation.framework */,
+				C8E3F26F173A4813005F8746 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8E3F271173A4813005F8746 /* DemoJOSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				C8E3F299173A4868005F8746 /* JOSwitch */,
+				C8E3F29C173A4868005F8746 /* images */,
+				C8E3F27A173A4813005F8746 /* JOAppDelegate.h */,
+				C8E3F27B173A4813005F8746 /* JOAppDelegate.m */,
+				C8E3F283173A4813005F8746 /* MainStoryboard.storyboard */,
+				C8E3F286173A4813005F8746 /* JOFirstViewController.h */,
+				C8E3F287173A4813005F8746 /* JOFirstViewController.m */,
+				C8E3F289173A4813005F8746 /* first.png */,
+				C8E3F28B173A4813005F8746 /* first@2x.png */,
+				C8E3F28D173A4813005F8746 /* JOSecondViewController.h */,
+				C8E3F28E173A4813005F8746 /* JOSecondViewController.m */,
+				C8E3F290173A4813005F8746 /* second.png */,
+				C8E3F292173A4813005F8746 /* second@2x.png */,
+				C8E3F272173A4813005F8746 /* Supporting Files */,
+			);
+			path = DemoJOSwitch;
+			sourceTree = "<group>";
+		};
+		C8E3F272173A4813005F8746 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8E3F273173A4813005F8746 /* DemoJOSwitch-Info.plist */,
+				C8E3F274173A4813005F8746 /* InfoPlist.strings */,
+				C8E3F277173A4813005F8746 /* main.m */,
+				C8E3F279173A4813005F8746 /* DemoJOSwitch-Prefix.pch */,
+				C8E3F27D173A4813005F8746 /* Default.png */,
+				C8E3F27F173A4813005F8746 /* Default@2x.png */,
+				C8E3F281173A4813005F8746 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8E3F299173A4868005F8746 /* JOSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				C8E3F29A173A4868005F8746 /* JOSwitch.h */,
+				C8E3F29B173A4868005F8746 /* JOSwitch.m */,
+			);
+			path = JOSwitch;
+			sourceTree = SOURCE_ROOT;
+		};
+		C8E3F29C173A4868005F8746 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C8E3F29D173A4868005F8746 /* switch_off@2x.png */,
+				C8E3F29E173A4868005F8746 /* switch_on@2x.png */,
+				C8E3F29F173A4868005F8746 /* switch_thumb@2x.png */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8E3F267173A4813005F8746 /* DemoJOSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8E3F296173A4813005F8746 /* Build configuration list for PBXNativeTarget "DemoJOSwitch" */;
+			buildPhases = (
+				C8E3F264173A4813005F8746 /* Sources */,
+				C8E3F265173A4813005F8746 /* Frameworks */,
+				C8E3F266173A4813005F8746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoJOSwitch;
+			productName = DemoJOSwitch;
+			productReference = C8E3F268173A4813005F8746 /* DemoJOSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8E3F260173A4813005F8746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JO;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = eker;
+			};
+			buildConfigurationList = C8E3F263173A4813005F8746 /* Build configuration list for PBXProject "DemoJOSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C8E3F25F173A4813005F8746;
+			productRefGroup = C8E3F269173A4813005F8746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8E3F267173A4813005F8746 /* DemoJOSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8E3F266173A4813005F8746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E3F276173A4813005F8746 /* InfoPlist.strings in Resources */,
+				C8E3F27E173A4813005F8746 /* Default.png in Resources */,
+				C8E3F280173A4813005F8746 /* Default@2x.png in Resources */,
+				C8E3F282173A4813005F8746 /* Default-568h@2x.png in Resources */,
+				C8E3F285173A4813005F8746 /* MainStoryboard.storyboard in Resources */,
+				C8E3F28A173A4813005F8746 /* first.png in Resources */,
+				C8E3F28C173A4813005F8746 /* first@2x.png in Resources */,
+				C8E3F291173A4813005F8746 /* second.png in Resources */,
+				C8E3F293173A4813005F8746 /* second@2x.png in Resources */,
+				C8E3F2A1173A4868005F8746 /* switch_off@2x.png in Resources */,
+				C8E3F2A2173A4868005F8746 /* switch_on@2x.png in Resources */,
+				C8E3F2A3173A4868005F8746 /* switch_thumb@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8E3F264173A4813005F8746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E3F278173A4813005F8746 /* main.m in Sources */,
+				C8E3F27C173A4813005F8746 /* JOAppDelegate.m in Sources */,
+				C8E3F288173A4813005F8746 /* JOFirstViewController.m in Sources */,
+				C8E3F28F173A4813005F8746 /* JOSecondViewController.m in Sources */,
+				C8E3F2A0173A4868005F8746 /* JOSwitch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8E3F274173A4813005F8746 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8E3F275173A4813005F8746 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C8E3F283173A4813005F8746 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8E3F284173A4813005F8746 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8E3F294173A4813005F8746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8E3F295173A4813005F8746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8E3F297173A4813005F8746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoJOSwitch/DemoJOSwitch-Prefix.pch";
+				INFOPLIST_FILE = "DemoJOSwitch/DemoJOSwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C8E3F298173A4813005F8746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoJOSwitch/DemoJOSwitch-Prefix.pch";
+				INFOPLIST_FILE = "DemoJOSwitch/DemoJOSwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8E3F263173A4813005F8746 /* Build configuration list for PBXProject "DemoJOSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8E3F294173A4813005F8746 /* Debug */,
+				C8E3F295173A4813005F8746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8E3F296173A4813005F8746 /* Build configuration list for PBXNativeTarget "DemoJOSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8E3F297173A4813005F8746 /* Debug */,
+				C8E3F298173A4813005F8746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8E3F260173A4813005F8746 /* Project object */;
+}
